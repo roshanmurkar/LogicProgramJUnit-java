@@ -5,7 +5,7 @@ import main.utility.UtilityForDayOfWeek;
 public class DayOfWeek {
 	public static void main(String[] args) {
 		
-		double y=0,m=0,d=0;
+		int y=0,m=0,d=0;
 		
 		d = Integer. parseInt(args[0]);
 		m = Integer. parseInt(args[1]);		

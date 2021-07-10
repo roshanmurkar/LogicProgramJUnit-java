@@ -9,7 +9,7 @@ public class UtilityForDayOfWeek {
 	public final static Logger logger=Logger.getLogger("UtilityForDayOfWeek");
 	
 	public static void getday(int d,int m,int y) {
-		float x=0;
+		int x=0;
 		y=(y-(14-m))/12;
 		x=y+(y/4)-(y/100)+(y/400);
 		m=m+(12*((14-m)/12))-2;

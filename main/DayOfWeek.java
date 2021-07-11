@@ -1,6 +1,6 @@
 package main;
 
-import main.utility.UtilityForDayOfWeek;
+import main.utility.UDayOfWeek;
 
 public class DayOfWeek {
 	public static void main(String[] args) {
@@ -10,8 +10,8 @@ public class DayOfWeek {
 		d = Integer. parseInt(args[0]);
 		m = Integer. parseInt(args[1]);		
 		y = Integer. parseInt(args[2]);
-		UtilityForDayOfWeek.getday(d,m,y);
-		UtilityForDayOfWeek.getday(d,m,y);
+		UDayOfWeek.getday(d,m,y);
+		UDayOfWeek.getday(d,m,y);
 		
 		
 	}

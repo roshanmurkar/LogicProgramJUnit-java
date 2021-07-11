@@ -1,6 +1,6 @@
 package main.utility;
 
-public class UtilityForMonthlyPayment {
+public class UMonthlyPayment {
 
 	public static double calculatePayment(double P,double Y,double R) {
 		 double n=(12*Y);

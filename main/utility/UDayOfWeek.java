@@ -4,9 +4,9 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class UtilityForDayOfWeek {
+public class UDayOfWeek {
 	
-	public final static Logger logger=Logger.getLogger("UtilityForDayOfWeek");
+	public final static Logger logger=Logger.getLogger("UDayOfWeek");
 	
 	public static void getday(int d,int m,int y) {
 		int x=0;

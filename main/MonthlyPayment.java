@@ -1,6 +1,6 @@
 package main;
 
-import main.utility.UtilityForMonthlyPayment;
+import main.utility.UMonthlyPayment;
 
 public class MonthlyPayment {
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class MonthlyPayment {
 		double Y = Integer. parseInt(args[1]);		
 		double R = Integer. parseInt(args[2]);
 		
-		System.out.println(UtilityForMonthlyPayment.calculatePayment(P, Y, R));
+		System.out.println(UMonthlyPayment.calculatePayment(P, Y, R));
 		
 	}
 }

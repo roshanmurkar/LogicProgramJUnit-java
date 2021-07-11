@@ -3,7 +3,7 @@ package main;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.utility.UtilityForCouponeNum;
+import main.utility.UCouponeNum;
 
 
 public class CouponNum {
@@ -12,11 +12,10 @@ public class CouponNum {
 	public static int getRandomNumber;
 	
 	public static void main(String[] args) {
-		
+
 		logger.log(Level.INFO,"Enter no - ");
-		getUserInput=UtilityForCouponeNum.getInput();
-		
-		getRandomNumber=UtilityForCouponeNum.checkForCards(getUserInput);
+		getUserInput=UCouponeNum.getInput();
+		getRandomNumber=UCouponeNum.checkForCards(getUserInput);
 		logger.log(Level.INFO,"coupon no - "+getRandomNumber);
 		
 		
